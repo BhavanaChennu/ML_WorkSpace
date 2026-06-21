@@ -5,9 +5,13 @@ A collection of machine learning algorithms and preprocessing techniques impleme
 ## 📁 Repository Structure
 
 ML_WorkSpace/
+|
 ├── algorithms/          # ML algorithm scripts (.ipynb)
-├── datasets/            # Dataset files (.csv)
+|
+├── datasets/            # Dataset files (.csv , .xlsx)
+|
 ├── .gitignore
+|
 └── README.md
 
 
@@ -43,15 +47,3 @@ The `preprocessing` scripts handle:
 - Categorical encoding (One-Hot / Label Encoding)
 - Train-test splitting
 
-## 🚀 Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/ML_WorkSpace.git
-cd ML_WorkSpace
-
-# Install dependencies
-pip install pandas numpy scipy matplotlib scikit-learn
-
-# Run an algorithm
-python algorithms/logistic_regression.py
